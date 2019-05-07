@@ -3,11 +3,18 @@
 const parseEventBody = require('./_util/parse-event-body');
 
 exports.handler = async function(event) {
-  const body = parseEventBody(event);
-  console.log(body.CallSid, body.TranscriptionText);
+  try {
+    const body = parseEventBody(event);
+    console.log(body.CallSid, body.TranscriptionText);
 
-  return {
-    statusCode: 201,
-    body: ''
-  };
+    return {
+      statusCode: 201,
+      body: ''
+    };
+  } catch (e) {
+    return {
+      statusCode: 500,
+      body: e.message
+    };
+  }
 };
