@@ -1,0 +1,26 @@
+{
+  "name": "podbot-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify functions:build --src functions",
+    "start": "netlify dev",
+    "start:live": "netlify dev --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanjudis/podbot-functions.git"
+  },
+  "keywords": [],
+  "author": "stefan judis <stefanjudis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanjudis/podbot-functions/issues"
+  },
+  "homepage": "https://github.com/stefanjudis/podbot-functions#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "netlify-cli": "^2.11.15"
+  }
+}
