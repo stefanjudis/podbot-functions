@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "netlify functions:build --src functions",
-    "start": "netlify dev",
-    "start:live": "netlify dev --live"
+    "dev": "twilio-run --live",
+    "dev:live": "twilio-run --live --ngrok"
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,6 @@
   "homepage": "https://github.com/stefanjudis/podbot-functions#readme",
   "dependencies": {},
   "devDependencies": {
-    "netlify-cli": "^2.11.15"
+    "twilio-run": "^1.0.1"
   }
 }
