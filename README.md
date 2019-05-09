@@ -22,7 +22,9 @@ Head over to your [Twilio Console](https://www.twilio.com/console/) and configur
 
 ![Twilio console for number configurationw with one configured webhook to use local functions](./media/console.jpg)
 
-And that's it. Hit "save" and call your Twilio number.
+And that's it. Hit "save" and call your Twilio number. You'll see `CallSid`, `RecordingUrl` and `TranscriptionText` logged to your terminal.
+
+![Logs of `CallSid`, `RecordingUrl` and `TranscriptionText`](./media/console.jpg)
 
 ---
 
