@@ -2,7 +2,9 @@
 
 > aka how to control Twilio voice call with Serverless functions
 
-**This article is the base of the Twilio tutorial [How to control and record voice messages with Node.js serverless functions TODO](...)**
+**This repository is the base of the Twilio tutorial [How to control and record voice messages with Node.js serverless functions TODO](...)**
+
+It includes three serverless functions in the `functions` directory. You can use these locally by running only one command. Have fun! 👋
 
 ![TwiML flow for Twilio voice calls](./media/flow.jpg)
 
@@ -22,9 +24,9 @@ Head over to your [Twilio Console](https://www.twilio.com/console/) and configur
 
 ![Twilio console for number configurationw with one configured webhook to use local functions](./media/console.jpg)
 
-And that's it. Hit "save" and call your Twilio number. You'll see `CallSid`, `RecordingUrl` and `TranscriptionText` logged to your terminal.
+And that's it. Hit "save" and call your Twilio number. ☎️ You'll see `CallSid`, `RecordingUrl` and `TranscriptionText` logged to your terminal. The three provided functions will be ready for you tweak and change according to your needs. 🎉
 
-![Logs of `CallSid`, `RecordingUrl` and `TranscriptionText`](./media/console.jpg)
+![Logs of `CallSid`, `RecordingUrl` and `TranscriptionText`](./media/log.jpg)
 
 ---
 
