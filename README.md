@@ -1,6 +1,6 @@
 # PodBot functions
 
-> aka how to control Twilio voice call with Serverless functions
+> aka how to control Twilio voice calls with Serverless functions
 
 **This repository is the base of the Twilio tutorial [How to control and record voice messages with Node.js serverless functions TODO](...)**
 
