@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "twilio-run --live",
+    "dev": "https://www.npmjs.com/package/npx",
     "dev:live": "twilio-run --live --ngrok"
   },
   "repository": {
